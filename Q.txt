@@ -1,10 +1,15 @@
 ----------------------------------------------------------------------------------
 1.Java Collections
 2.Multi-threading
-3.Design Patterns ( Dependency indjection , Singleton ,Factory , Builder, Adopter)
+3.Design Patterns ( Dependency injection , Singleton ,Factory , Builder, Adopter, etc)
 4.SOLID principle
 5.Big -O-
 6.Java Generics
-7.SQL ( insertions , joins , etc )
+7.SQL ( insertions , joins , etc. )
 8.Primitive Types
+9.JDK / JVM
+10.Maven
+11.MVP / MVVM / MVC
+12.Spring Boot
+13.Networking
 -----------------------------------------------------------------------------------

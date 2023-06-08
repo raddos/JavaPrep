@@ -1,0 +1,32 @@
+// JVM
+Java virutal machine is abstcat machine. It is a specification that provides runtime env in
+which java BYTECODE can be executed;
+JVM is platform dependent -> generating java code for specific OS;
+Implementation provided by Oracle, An Implementation is JRE , Runtime Instance when you write java command
+on cmd to run java class, an instance of jvm is created;
+JVM operations : Loads code , Verifies code , Executes code , Provides runtime env;
+JVM provides def : Memory area, class file format , register set , Garbage collected heap, fatal error report
+JVM Architecture: ClassLoader, Memory area,execution engine;
+Memory area that jvm provides : CLass area,heap,stack,pc counter,native method stack.
+Built in class loaders :
+1. Bootstrap classLoader, super class of extension super calss , laods
+Java Standard edition : java.lang , java.sql , etc;
+2. Extension ClassLoader it is parent class of system classloader , loads jar files %Java_Home/jre/lib
+3.Systen/App class loader : loads classfiles from classpath
+Iternal class loaders:
+Class(Method) Area : stores per-class structures such as runtime cosntant pool,field,method data;
+Heap : it is the runtime data area in which objects are allocated;
+Java stack : Stores frames, holds local variables and partial results
+Program counter register : Contains address of the java virual machine instructures being executed
+Execution machine : virtual processor, Interpreter: Read BYTECODE stream then executes the instrucitons,
+Just-In-TIme(JIT) compiler: used to improve the performance
+Java native interface(JNI) is a framework withch provdes an interface to communicate with another application
+written in another language like C/C++.
+//JDK
+Java development kit
+JDK is implemented by oracle coorp : Standard edition Java Plat, EnterPrise Edition Java Platf, Micro edition
+it contains privvate jvm , complier (javac) an archiver (jar), doc generatior (javadoc) ...
+//Java types
+Primitive and non-primitive
+Static / local and instanced;
+//
